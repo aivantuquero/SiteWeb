@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+   background-color: white;
+}
+
+
+
+@font-face{
+    font-family: Gravity; src: url(Gravity-Regular.otf);
+    font-display: Ballet Harmony; src: url(ballet Harmony.ttf);
+}
+
+header{
+    text-align: center;
+    background-image: url(images/blacknwhite.jpg);
+    
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position-y: -100;
+   min-height: 600px;
+    
+}
+
+.navs li, a {
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.navs li {
+    display: inline-block;
+    padding: 23px;
+    
+    font-family: Gravity;
+    position: relative;
+    top:12px;
+    align-content: center;
+}
+#title{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 86px;
+    position: relative;
+    top: 149px;
+}
+#lambo{
+    color: white;
+    position: relative;
+    top: 130px;
+    font-size: 40px;
+}
+#ideaz{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#real{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.pointA{
+    font-family: Gravity;
+    position: relative;
+    top:300px;
+    color: white;
+    padding: 17px;
+    border: solid 2px white;
+    
+}
+
+
+#pointB{
+color: white;
+
+}
+
+section{
+    margin-top: 200px;
+    color:black;
+    font-size: 17px;
+    align-content: center;
+    
+    
+}
+section h1{
+    font-family: Gravity;
+    
+    text-align: center;
+    position: relative;
+    top: -40px;
+    font-size: 35px;
+}
+
+section p{
+    font-family: Gravity;
+   text-align: left;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.containerr{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 150px;
+  
+}
+
+.containerr div{
+    font-family: Gravity;
+    margin: 0px 18px 0px 18px;
+    line-height: 40px;
+  
+}
+.containerr h1{
+    font-size: 20px;
+    padding-bottom: 7px;
+    position: relative;
+    right : 12px;
+}
+.containerr li{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+
+}
+
+.linya{
+    display: none;
+}
+
+@media only screen and (max-width:950px){
+    .containerr{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        right: 5px;
+    }
+    
+    .containerr h1{
+        font-size: 25px;
+        padding-bottom: 7px;
+        position: relative;
+        right : 12px;
+    }
+    .containerr li{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19px;
+    
+    }
+
+    .containerr div{
+        padding: 17px;
+    }
+
+
+}
+
+@media only screen and (max-width:768px){
+
+    .linya{
+        display: block;
+        position: relative;
+        top: 50px;
+        margin: 0px 50px 0px 50px; 
+    }
+}
+
+footer{
+    color:white;
+    background-color: rgb(29, 29, 29);
+    font-family: 'Gravity';
+    min-height: 250px;
+}
+
+.fcontainer{
+   display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  margin-left: 300px;
+  
+
+  
+
+}
+
+
+.fcontainer div{
+     display: block;
+
+}
+.fcontainer h1{
+    align-content: center;
+    text-align: center;
+    font-size: 100px;
+
+}
+
+.logo1{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:414px){
+
+    #title{
+        color: white;
+        font-family: 'Amatic SC', cursive;
+        font-size: 70px;
+        position: relative;
+        top: 149px;
+    }
+    #lambo{
+        color: white;
+        position: relative;
+        top: 130px;
+        font-size: 20px;
+    }
+    #ideaz{
+        font-family: 'Gloria Hallelujah', cursive;
+    }
+    #real{
+        font-family: 'Architects Daughter', cursive;
+    }
+
+}
